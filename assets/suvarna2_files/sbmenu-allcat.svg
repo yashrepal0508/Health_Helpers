@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="11.5" viewBox="0 0 16.5 11.5">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <g id="Hamburger_Menu" data-name="Hamburger Menu" transform="translate(0.25 -2.75)">
+    <path id="Path_142908" data-name="Path 142908" class="cls-1" d="M15.5,4H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"/>
+    <path id="Path_142909" data-name="Path 142909" class="cls-1" d="M15.5,9H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"/>
+    <path id="Path_142910" data-name="Path 142910" class="cls-1" d="M15.5,14H.5a.5.5,0,0,1,0-1h15a.5.5,0,0,1,0,1Z"/>
+  </g>
+</svg>
