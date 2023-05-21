@@ -26,7 +26,7 @@ $count=mysqli_num_rows($result);
 if($count==1){
     $_SESSION['login_user']=$user;
 
-    header('location:medical.php');
+    header('location:medical.html');
 }
 else{
     echo '<script>alert("Invalid User Name Or Password")</script>';

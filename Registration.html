@@ -16,7 +16,7 @@
 <body>
     <div class="header sticky-top">
         <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="medical.php">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/logo 2.png" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar">
@@ -32,23 +32,42 @@
     <div id="loading">
     </div>
     <div class="center">
-        <h1>Login</h1>
-        <form method="post" action="lg.php">
+        <h1>Sign Up</h1>
+          <form method="post" action="insert.php">
+          <div class="txt_field">
+            <input type="text" name="F_name" id="F_name" required>
+            <span></span>
+         <label> Full Name</label>
+          </div>
+          <div class="txt_field">
+            <input type="number" name="P_number" id="P_number" required>
+            <span></span>
+          <label>Phone Number</label>
+          </div>
           <div class="txt_field">
             <input type="text" name="mail" id="mail" required>
             <span></span>
-<label>Enter Your Email</label>
+         <label>Email</label>
           </div>
           <div class="txt_field">
             <input type="password" name="pass" id="pass" required>
             <span></span>
             <label>Password</label>
           </div>
-          <div class="pass">
-            <a href="Forgotpass.php">Forgot Password? </a> </div>
-          <input type="submit" value="Login">
+           <div class="form-group">
+                            <span>I'm a</span>
+                            <input type="radio" name="button" id="button" class="ml-3" id="gender-male" name="gender" value="male" /> Male
+                            <label for="gender-male">
+                            </label>
+                            <input type="radio" name="button" id="button" class="ml-3" id="gender-female" name="gender" value="female" />
+                            <label for="gender-female">
+                                Female
+                            </label>
+                        </div>
+
+          <input type="submit" value="Sign Up">
           <div class="signup_link">
-            Not a member? <a href="Registration.php">Signup</a>
+            Alredy have a account? <a href="Login.html">Login</a>
           </div>
         </form>
       </div>

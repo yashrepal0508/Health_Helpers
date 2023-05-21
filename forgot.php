@@ -15,7 +15,7 @@ $pass=$_REQUEST['pass'];
 $sql = "UPDATE health_helpers.registration SET pass= '$pass' WHERE mail='$user'";
 
 if(mysqli_query($conn,$sql)){
-    header('location:Login.php');
+    header('location:Login.html');
 }
 else{
     echo "Error updating record: ".mysqli_error($conn);

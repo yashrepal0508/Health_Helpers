@@ -10,11 +10,11 @@ body{
   padding: 0;
   background: linear-gradient(120deg,#66d9ff, #262626);
   height: fit-content;
-  
+  overflow: hidden;
 }
 .center{
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -24,7 +24,7 @@ body{
 }
 .center h1{
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid silver;
 }
 .center form{
