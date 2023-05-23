@@ -14,7 +14,7 @@ body{
 }
 .center{
   position: absolute;
-  top: 55%;
+  top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -24,7 +24,7 @@ body{
 }
 .center h1{
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
   border-bottom: 1px solid silver;
 }
 .center form{
@@ -114,6 +114,8 @@ input[type="submit"]:hover{
 
 
 
+
+
                                      /*MOBILE VIEW OR ANDROID VIEW*/
 
 @media screen and (max-width:600px){
@@ -128,12 +130,12 @@ input[type="submit"]:hover{
   body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg,#66d9ff,120deg #262626);
+    background: linear-gradient(120deg,#66d9ff);
     height: max-content;
     overflow: hidden;
   }
   .center{
-    top: 150%;
+    top: 200%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:400px;
@@ -231,7 +233,3 @@ input[type="submit"]:hover{
     text-decoration: underline;
   }
 }
-
-
-
-
